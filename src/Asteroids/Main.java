@@ -1,4 +1,4 @@
-package sample;
+package Asteroids;
 
 import Uniplay.NGGameEngine;
 import javafx.application.Application;

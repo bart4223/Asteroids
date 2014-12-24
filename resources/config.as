@@ -1,1 +1,1 @@
-UniplayConfigurationFilename=
+UniplayConfigurationFilename=resources/design/config.ucf

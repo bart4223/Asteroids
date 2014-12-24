@@ -1,4 +1,4 @@
-package sample;
+package Asteroids;
 
 public class Controller {
 }
