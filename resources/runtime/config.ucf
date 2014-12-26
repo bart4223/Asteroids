@@ -1,0 +1,4 @@
+Debuglevel=-1
+ConsoleShowLogEntrySource=false
+ConsoleShowLog=false
+DefinitionFilename=resources/runtime/definition.udf

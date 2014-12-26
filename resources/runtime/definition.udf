@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.7.0_25" class="java.beans.XMLDecoder">
+ <object class="Uniplay.Kernel.NGGameEngineDefinition">
+  <void property="modules">
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="Uniplay.Kernel.NGGameEngineDefinitionModuleItem">
+      <void property="classname">
+       <string>Uniplay.Storage.NGDataStorageModule</string>
+      </void>
+      <void property="name">
+       <string>DataStorage</string>
+      </void>
+      <void property="caption">
+       <string>Data Storage</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="Uniplay.Kernel.NGGameEngineDefinitionModuleItem">
+      <void property="classname">
+       <string>Asteroids.AsteroidsModule</string>
+      </void>
+      <void property="configurationFilename">
+       <string>resources/runtime/modules/Asteroids/config.ucf</string>
+      </void>
+      <void property="name">
+       <string>Asteroids</string>
+      </void>
+      <void property="caption">
+       <string>Asteroids</string>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>
