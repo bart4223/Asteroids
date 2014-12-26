@@ -1,0 +1,29 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="Asteroids">
+    <output-path>$PROJECT_DIR$/out/artifacts/Asteroids</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="Asteroids.Main" />
+        <option name="description" value="" />
+        <option name="htmlParamFile" value="" />
+        <option name="paramFile" value="" />
+        <option name="title" value="" />
+        <option name="vendor" value="" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="Asteroids.jar">
+        <element id="module-output" name="Asteroids" />
+      </element>
+      <element id="directory" name="resources">
+        <element id="dir-copy" path="$PROJECT_DIR$/resources" />
+      </element>
+      <element id="archive" name="Uniplay.jar">
+        <element id="module-output" name="Uniplay" />
+      </element>
+      <element id="archive" name="Uniwork.jar">
+        <element id="module-output" name="Uniwork" />
+      </element>
+    </root>
+  </artifact>
+</component>
