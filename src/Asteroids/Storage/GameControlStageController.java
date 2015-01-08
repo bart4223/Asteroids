@@ -8,7 +8,7 @@ public class GameControlStageController extends NGStageController {
     public Asteroids Game;
 
     @FXML
-    protected void handleExit(){
+    protected void handleQuit(){
         Game.Shutdown();
     }
 
