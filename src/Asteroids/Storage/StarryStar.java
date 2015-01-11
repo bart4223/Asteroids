@@ -106,13 +106,13 @@ public class StarryStar extends NGCustomGameObject {
             switch (FDirection) {
                 case left:
                     star.Move(-1);
-                    if (star.getPositionX() < 0) {
+                    if (star.getPositionX() < -star.getSize()) {
                         martures.add(star);
                     }
                     break;
                 case right:
                     star.Move(+1);
-                    if (star.getPositionX() > FWidth) {
+                    if (star.getPositionX() > FWidth + star.getSize()) {
                         martures.add(star);
                     }
                     break;

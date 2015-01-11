@@ -12,6 +12,11 @@ public class GameControlStageController extends NGStageController {
         Game.Shutdown();
     }
 
+    @FXML
+    protected void handleNew(){
+        Game.Restart();
+    }
+
     public GameControlStageController() {
         super();
     }
