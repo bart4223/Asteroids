@@ -21,7 +21,7 @@ public class StarryStarDisplayManager extends NGDisplayManager {
                 StarryStar.Star star = StarryStar.getStar(i);
                 FCurrentStarSize = star.getSize();
                 FCurrentStarColor = DefaultStarColor;
-                Integer index = StarryStar.getMaxStarSize() / 2;
+                Integer index = StarryStar.MaxStarSize / 2;
                 if (FCurrentStarSize > index + 1) {
                     FCurrentStarColor = DefaultStarColor.brighter();
                 }

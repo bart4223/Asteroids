@@ -1,5 +1,5 @@
 <component name="ArtifactManager">
-  <artifact type="javafx" build-on-make="true" name="Asteroids">
+  <artifact type="javafx" name="Asteroids">
     <output-path>$PROJECT_DIR$/out/artifacts/Asteroids</output-path>
     <properties id="javafx-properties">
       <options>

@@ -9,7 +9,7 @@ import java.util.ArrayList;
 
 public class StarryStar extends NGCustomGameObject {
 
-    protected enum Direction{left, right}
+    public enum Direction{left, right}
 
     public class Star {
 
@@ -54,56 +54,54 @@ public class StarryStar extends NGCustomGameObject {
 
         public void setVelocity(Integer aVelocity) {
             FVelocity = aVelocity;
-            FMoveIndex = FMaxStarVelocity - FVelocity;
+            FMoveIndex = MaxStarVelocity - FVelocity;
         }
 
         public void Move(Integer aDirection) {
             FMoveIndex--;
             if (FMoveIndex <= 0) {
-                FMoveIndex = FMaxStarVelocity - FVelocity;
+                FMoveIndex = MaxStarVelocity - FVelocity;
                 setPositionX(getPositionX() + aDirection);
             }
         }
 
     }
 
-    protected Integer FWidth;
-    protected Integer FHeight;
     protected ArrayList<Star> FStars;
-    protected Direction FDirection;
-    protected Integer FMaxStars;
-    protected Integer FMaxStarSize;
-    protected Integer FMaxStarVelocity;
 
     protected void newStar() {
-        Integer x = NGRandomGenerator.GlobalRandomGenerator.getInteger(FWidth);
-        Integer y = NGRandomGenerator.GlobalRandomGenerator.getInteger(FHeight);
-        Integer starsize = NGRandomGenerator.GlobalRandomGenerator.getInteger(1, FMaxStarSize);
+        Integer x = NGRandomGenerator.GlobalRandomGenerator.getInteger(Width);
+        Integer y = NGRandomGenerator.GlobalRandomGenerator.getInteger(Height);
+        Integer starsize = NGRandomGenerator.GlobalRandomGenerator.getInteger(1, MaxStarSize);
         Integer velocity = DetermineVelocity(starsize);
         Star star = new Star(x, y, starsize, velocity);
         FStars.add(star);
     }
 
     protected Integer DetermineVelocity(Integer aStarSize) {
-        Integer velocity = FMaxStarVelocity / FMaxStarSize;
+        Integer velocity = MaxStarVelocity / MaxStarSize;
         Integer offset = NGRandomGenerator.GlobalRandomGenerator.getInteger(0, velocity) + 1;
         velocity = (aStarSize - 1) * velocity + offset;
         return velocity;
     }
 
     @Override
-    protected void DoInitialize() {
-        super.DoInitialize();
-        Integer count = NGRandomGenerator.GlobalRandomGenerator.getInteger(FMaxStars / 2, FMaxStars);
+    protected void DoReset() {
+        super.DoReset();
+        FStars.clear();
+        Integer count = NGRandomGenerator.GlobalRandomGenerator.getInteger(MaxStars / 2, MaxStars);
         for (int i = 0; i < count; i++) {
             newStar();
         }
+        writeLog(String.format("StarryStar reset with %d stars.", count));
     }
 
+    @Override
     protected void DoExecute() {
+        super.DoExecute();
         ArrayList<Star> martures = new ArrayList<Star>();
         for (Star star : FStars) {
-            switch (FDirection) {
+            switch (Direction) {
                 case left:
                     star.Move(-1);
                     if (star.getPositionX() < -star.getSize()) {
@@ -112,70 +110,50 @@ public class StarryStar extends NGCustomGameObject {
                     break;
                 case right:
                     star.Move(+1);
-                    if (star.getPositionX() > FWidth + star.getSize()) {
+                    if (star.getPositionX() > Width + star.getSize()) {
                         martures.add(star);
                     }
                     break;
             }
         }
         for (Star marture : martures) {
-            switch (FDirection) {
+            switch (Direction) {
                 case left:
-                    marture.setPositionX(FWidth + FMaxStarSize);
-                    marture.setPositionY(NGRandomGenerator.GlobalRandomGenerator.getInteger(FHeight));
+                    marture.setPositionX(Width + MaxStarSize);
+                    marture.setPositionY(NGRandomGenerator.GlobalRandomGenerator.getInteger(Height));
                     break;
                 case right:
-                    marture.setPositionX(- FMaxStarSize);
-                    marture.setPositionY(NGRandomGenerator.GlobalRandomGenerator.getInteger(FHeight));
+                    marture.setPositionX(- MaxStarSize);
+                    marture.setPositionY(NGRandomGenerator.GlobalRandomGenerator.getInteger(Height));
                     break;
             }
-            marture.setSize(NGRandomGenerator.GlobalRandomGenerator.getInteger(1, FMaxStarSize));
+            marture.setSize(NGRandomGenerator.GlobalRandomGenerator.getInteger(1, MaxStarSize));
             marture.setVelocity(DetermineVelocity(marture.getSize()));
         }
     }
 
-    public StarryStar(NGCustomGame aGame, Integer aWidth, Integer aHeight, Integer aMaxStars) {
-        super(aGame);
+    public StarryStar(NGCustomGame aGame, String aName) {
+        super(aGame, aName);
         FStars = new ArrayList<Star>();
-        FWidth = aWidth;
-        FHeight = aHeight;
-        FDirection = Direction.left;
-        FMaxStars = aMaxStars;
-        FMaxStarSize = 3;
-        FMaxStarVelocity = 10;
+        MaxStars = 0;
+        Width = 0;
+        Height = 0;
+        Direction = Direction.left;
+        MaxStarSize = 3;
+        MaxStarVelocity = 10;
     }
 
-    public void Initialize() {
-        DoInitialize();
-    }
+    public Integer MaxStars;
 
-    public Integer getWidth() {
-        return FWidth;
-    }
+    public Integer Width;
 
-    public Integer getHeight() {
-        return FHeight;
-    }
+    public Integer Height;
 
-    public Integer getMaxStars() {
-        return FMaxStars;
-    }
+    public Integer MaxStarSize;
 
-    public Integer getMaxStarSize() {
-        return FMaxStarSize;
-    }
+    public Integer MaxStarVelocity;
 
-    public void setMaxStarSize(Integer aMaxStarSize) {
-        FMaxStarSize = aMaxStarSize;
-    }
-
-    public Integer getMaxStarVelocity() {
-        return FMaxStarVelocity;
-    }
-
-    public void setMaxStarVelocity(Integer aMaxStarVelocity) {
-        FMaxStarVelocity = aMaxStarVelocity;
-    }
+    public Direction Direction;
 
     public Integer getStarCount() {
         return FStars.size();
@@ -183,18 +161,6 @@ public class StarryStar extends NGCustomGameObject {
 
     public Star getStar(Integer aIndex) {
         return FStars.get(aIndex);
-    }
-
-    public Direction getDirection() {
-        return FDirection;
-    }
-
-    public void setDirection(Direction aDirection) {
-        FDirection = aDirection;
-    }
-
-    public void Execute() {
-        DoExecute();
     }
 
 }
