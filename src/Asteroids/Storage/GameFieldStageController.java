@@ -1,6 +1,7 @@
 package Asteroids.Storage;
 
 import Asteroids.Graphics.StarryStarDisplayManager;
+import Uniplay.Storage.NGCustomGameObject;
 import Uniwork.Visuals.NGDisplayController;
 import Uniwork.Visuals.NGStageController;
 import javafx.fxml.FXML;
@@ -26,11 +27,6 @@ public class GameFieldStageController extends NGStageController {
     public GameFieldStageController() {
         super();
         FOwnRenderThread = true;
-    }
-
-    public void setStarryStar(StarryStar aStarryStar) {
-        NGDisplayController dc = getDisplayController(CStarryStar);
-        dc.setProperty(dc,"StarryStar", aStarryStar);
     }
 
 }
