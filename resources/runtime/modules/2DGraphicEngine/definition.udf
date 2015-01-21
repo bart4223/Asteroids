@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.7.0_25" class="java.beans.XMLDecoder">
+ <object class="Uniplay.Graphics.NG2DGraphicEngineDefinition">
+  <void property="eventHandlers">
+   <object class="java.util.ArrayList">
+   </object>
+  </void>
+  <void property="renderEngines">
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="Uniplay.Graphics.NGGraphicEngineDefinitionRenderEngineItem">
+      <void property="displayControllers">
+       <object class="java.util.ArrayList">
+        <void method="add">
+         <object class="Uniplay.Graphics.NGGraphicEngineDefinitionRenderEngineDisplayControllerItem">
+          <void property="name">
+           <string>DEFAULT</string>
+          </void>
+          <void property="classname">
+           <string>Asteroids.Graphics.StarryStarDisplayManager</string>
+          </void>
+          <void property="props">
+           <object class="java.util.ArrayList">
+           </object>
+          </void>
+          <void property="layers">
+           <object class="java.util.ArrayList">
+           </object>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void property="name">
+       <string>StarryStar</string>
+      </void>
+      <void property="layername">
+       <string>Asteroids.GameField.LayerStarryStar</string>
+      </void>
+      <void property="classname">
+       <string>Uniplay.Graphics.NG2DRenderEngine</string>
+      </void>
+      <void property="props">
+       <object class="java.util.ArrayList">
+       </object>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>

@@ -64,6 +64,22 @@
       </void>
      </object>
     </void>
+    <void method="add">
+     <object class="Uniplay.Kernel.NGGameEngineDefinitionModuleItem">
+      <void property="classname">
+       <string>Uniplay.Graphics.NG2DGraphicEngine</string>
+      </void>
+      <void property="configurationFilename">
+       <string>resources/runtime/modules/2DGraphicEngine/config.ucf</string>
+      </void>
+      <void property="name">
+       <string>2DGraphicEngine</string>
+      </void>
+      <void property="caption">
+       <string>2D Graphic Engine</string>
+      </void>
+     </object>
+    </void>
    </object>
   </void>
  </object>

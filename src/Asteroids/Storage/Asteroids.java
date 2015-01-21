@@ -72,6 +72,11 @@ public class Asteroids extends NG2DGame {
     }
 
     @Override
+    protected void registerObjects() {
+        registerObject(String.format("%s.GameField.LayerStarryStar", getName()), FGameFieldController.LayerStarryStar);
+    }
+
+    @Override
     protected void DoShowStages() {
         super.DoShowStages();
         perfectLayout();

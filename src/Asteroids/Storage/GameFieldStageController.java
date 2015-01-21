@@ -1,8 +1,6 @@
 package Asteroids.Storage;
 
 import Asteroids.Graphics.StarryStarDisplayManager;
-import Uniplay.Storage.NGCustomGameObject;
-import Uniwork.Visuals.NGDisplayController;
 import Uniwork.Visuals.NGStageController;
 import javafx.fxml.FXML;
 import javafx.scene.canvas.Canvas;
