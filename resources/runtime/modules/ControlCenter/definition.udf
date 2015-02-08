@@ -22,7 +22,7 @@
            <string>Interval</string>
           </void>
           <void property="value">
-           <int>100</int>
+           <int>4</int>
           </void>
          </object>
         </void>

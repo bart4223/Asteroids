@@ -1,6 +1,7 @@
 package Asteroids.Graphics;
 
 import Asteroids.Storage.StarryStar;
+import Uniplay.Storage.NGCustomGameObject;
 import Uniwork.Visuals.NGDisplayManager;
 import javafx.scene.canvas.Canvas;
 import javafx.scene.paint.Color;
@@ -16,12 +17,13 @@ public class StarryStarDisplayManager extends NGDisplayManager {
 
     protected void InternalRender() {
         clearRect(0, 0, FWidth, FHeight);
-        if (StarryStar != null) {
-            for (int i = 0; i < StarryStar.getStarCount(); i++) {
-                StarryStar.Star star = StarryStar.getStar(i);
+        if (StarryStar instanceof StarryStar) {
+            StarryStar ss = (StarryStar)StarryStar;
+            for (int i = 0; i < ss.getStarCount(); i++) {
+                StarryStar.Star star = ss.getStar(i);
                 FCurrentStarSize = star.getSize();
                 FCurrentStarColor = DefaultStarColor;
-                Integer index = StarryStar.MaxStarSize / 2;
+                Integer index = ss.MaxStarSize / 2;
                 if (FCurrentStarSize > index + 1) {
                     FCurrentStarColor = DefaultStarColor.brighter();
                 }
@@ -40,9 +42,11 @@ public class StarryStarDisplayManager extends NGDisplayManager {
 
     public StarryStarDisplayManager(Canvas aCanvas, String aName) {
         super(aCanvas, aName);
+        StarryStar = null;
+        DefaultStarColor = Color.GRAY;
     }
 
-    public StarryStar StarryStar;
+    public NGCustomGameObject StarryStar;
 
     public Color DefaultStarColor;
 

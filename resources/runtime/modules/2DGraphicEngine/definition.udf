@@ -3,6 +3,13 @@
  <object class="Uniplay.Graphics.NG2DGraphicEngineDefinition">
   <void property="eventHandlers">
    <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="Uniplay.Graphics.NGGraphicEngineDefinitionEventHandlerItem">
+      <void property="classname">
+       <string>Uniplay.Graphics.NGGraphicEngineEventHandlerGameObjectExecuted</string>
+      </void>
+     </object>
+    </void>
    </object>
   </void>
   <void property="renderEngines">
@@ -38,10 +45,20 @@
        <string>Asteroids.GameField.LayerStarryStar</string>
       </void>
       <void property="classname">
-       <string>Uniplay.Graphics.NG2DRenderEngine</string>
+       <string>Uniplay.Graphics.NG2DGameObjectRenderEngine</string>
       </void>
       <void property="props">
        <object class="java.util.ArrayList">
+        <void method="add">
+         <object class="Uniwork.Base.NGSerializePropertyItem">
+          <void property="name">
+           <string>RenderEngine.ValuePropname</string>
+          </void>
+          <void property="value">
+           <string>StarryStar</string>
+          </void>
+         </object>
+        </void>
        </object>
       </void>
      </object>
