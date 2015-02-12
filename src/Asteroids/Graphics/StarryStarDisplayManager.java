@@ -1,7 +1,6 @@
 package Asteroids.Graphics;
 
 import Asteroids.Storage.StarryStar;
-import Uniplay.Storage.NGCustomGameObject;
 import Uniwork.Visuals.NGDisplayManager;
 import javafx.scene.canvas.Canvas;
 import javafx.scene.paint.Color;
@@ -12,27 +11,24 @@ public class StarryStarDisplayManager extends NGDisplayManager {
     protected Integer FCurrentStarSize;
 
     protected void DoRender() {
-        fillCircle((int) getPositionX(), (int) getPositionY(), FCurrentStarSize, FCurrentStarColor);
+        fillCircle((int)getPositionX(), (int)getPositionY(), FCurrentStarSize, FCurrentStarColor);
     }
 
     protected void InternalRender() {
         clearRect(0, 0, FWidth, FHeight);
-        if (StarryStar instanceof StarryStar) {
-            StarryStar ss = (StarryStar)StarryStar;
-            for (int i = 0; i < ss.getStarCount(); i++) {
-                StarryStar.Star star = ss.getStar(i);
-                FCurrentStarSize = star.getSize();
-                FCurrentStarColor = DefaultStarColor;
-                Integer index = ss.MaxStarSize / 2;
-                if (FCurrentStarSize > index + 1) {
-                    FCurrentStarColor = DefaultStarColor.brighter();
-                }
-                else if (FCurrentStarSize <= index) {
-                    FCurrentStarColor = DefaultStarColor.darker();
-                }
-                setPosition(star.getPositionX(), star.getPositionY());
-                super.InternalRender();
+        for (int i = 0; i < StarryStar.getStarCount(); i++) {
+            StarryStar.Star star = StarryStar.getStar(i);
+            FCurrentStarSize = star.getSize();
+            FCurrentStarColor = DefaultStarColor;
+            Integer index = StarryStar.MaxStarSize / 2;
+            if (FCurrentStarSize > index + 1) {
+                FCurrentStarColor = DefaultStarColor.brighter();
             }
+            else if (FCurrentStarSize <= index) {
+                FCurrentStarColor = DefaultStarColor.darker();
+            }
+            setPosition(star.getPositionX(), star.getPositionY());
+            super.InternalRender();
         }
     }
 
@@ -46,7 +42,7 @@ public class StarryStarDisplayManager extends NGDisplayManager {
         DefaultStarColor = Color.GRAY;
     }
 
-    public NGCustomGameObject StarryStar;
+    public StarryStar StarryStar;
 
     public Color DefaultStarColor;
 
