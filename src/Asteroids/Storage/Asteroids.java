@@ -1,5 +1,12 @@
 package Asteroids.Storage;
 
+import Asteroids.Graphics.AsteroidsSprite;
+import Asteroids.Graphics.SpriteAir;
+import Asteroids.Graphics.SpriteBendersUfo;
+import Asteroids.Graphics.SpriteStone;
+import Uniplay.Kernel.NGGameEngineMemoryAddress;
+import Uniplay.Kernel.NGGameEngineMemoryIntegerCellValue;
+import Uniplay.Kernel.NGGameEngineMemoryObjectCellValue;
 import Uniplay.Storage.NG2DGame;
 import Uniplay.Storage.NGGameManager;
 import javafx.event.EventHandler;
@@ -83,6 +90,35 @@ public class Asteroids extends NG2DGame {
         FGameControlStage.show();
         FGameFieldStage.show();
     }
+
+    @Override
+    protected Class getMemoryCellValueClass() {
+        return MemoryCellValue.class;
+    }
+
+    @Override
+    protected void assignMemoryCellValueFrom(NGGameEngineMemoryAddress aAddress, NGGameEngineMemoryObjectCellValue aCellValue, Object aObject) {
+        if (aObject instanceof NGGameEngineMemoryIntegerCellValue) {
+            NGGameEngineMemoryIntegerCellValue cellValue = (NGGameEngineMemoryIntegerCellValue)aObject;
+            AsteroidsSprite sprite = getSpriteFrom(aAddress, cellValue.getInteger());
+            aCellValue.setObject(sprite);
+        }
+    }
+
+    protected AsteroidsSprite getSpriteFrom(NGGameEngineMemoryAddress aAddress, Integer aID)  {
+        switch (aID) {
+            case 0:
+                return new SpriteAir();
+            case 1:
+                return new SpriteBendersUfo();
+            case 2 :case 3 :case 4 :
+                SpriteStone stone = new SpriteStone();
+                stone.setID(aID);
+                return stone;
+        }
+        return null;
+    }
+
 
     public Asteroids(NGGameManager aManager, String aName) {
         super(aManager, aName);

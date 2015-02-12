@@ -2,7 +2,7 @@
 <java version="1.7.0_75" class="java.beans.XMLDecoder">
  <object class="Grids.XMLGrid">
   <void property="currentLayer">
-   <string>ID_1</string>
+   <string>ID_2</string>
   </void>
   <void property="gridColor">
    <string>0xd3d3d3ff</string>
@@ -15,7 +15,7 @@
     <void method="add">
      <object class="Grids.XMLLayer">
       <void property="ZOrder">
-       <int>10</int>
+       <int>12</int>
       </void>
       <void property="description">
        <string>Bender&apos;s Ufo</string>
@@ -24,6 +24,9 @@
        <object class="java.util.ArrayList">
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_1</string>
+          </void>
           <void property="x">
            <double>3.0</double>
           </void>
@@ -48,7 +51,7 @@
     <void method="add">
      <object class="Grids.XMLLayer">
       <void property="ZOrder">
-       <int>7</int>
+       <int>17</int>
       </void>
       <void property="description">
        <string>Stone</string>
@@ -57,16 +60,26 @@
        <object class="java.util.ArrayList">
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>23.0</double>
           </void>
          </object>
         </void>
         <void method="add">
-         <object class="Uniwork.Graphics.NGPoint2D"/>
+         <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
+         </object>
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>1.0</double>
           </void>
@@ -74,6 +87,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>2.0</double>
           </void>
@@ -81,6 +97,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>3.0</double>
           </void>
@@ -88,6 +107,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>4.0</double>
           </void>
@@ -95,6 +117,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>5.0</double>
           </void>
@@ -102,6 +127,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>6.0</double>
           </void>
@@ -109,6 +137,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>7.0</double>
           </void>
@@ -116,6 +147,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>8.0</double>
           </void>
@@ -123,6 +157,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>9.0</double>
           </void>
@@ -130,6 +167,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>10.0</double>
           </void>
@@ -137,6 +177,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>11.0</double>
           </void>
@@ -144,6 +187,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>12.0</double>
           </void>
@@ -151,6 +197,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>13.0</double>
           </void>
@@ -158,6 +207,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>14.0</double>
           </void>
@@ -165,6 +217,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>15.0</double>
           </void>
@@ -172,6 +227,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>16.0</double>
           </void>
@@ -179,6 +237,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>17.0</double>
           </void>
@@ -186,6 +247,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>18.0</double>
           </void>
@@ -193,6 +257,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>19.0</double>
           </void>
@@ -200,6 +267,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>20.0</double>
           </void>
@@ -207,6 +277,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>21.0</double>
           </void>
@@ -214,6 +287,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>22.0</double>
           </void>
@@ -221,6 +297,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>24.0</double>
           </void>
@@ -228,6 +307,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="y">
            <double>19.0</double>
           </void>
@@ -235,6 +317,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>1.0</double>
           </void>
@@ -245,6 +330,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>2.0</double>
           </void>
@@ -255,6 +343,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>3.0</double>
           </void>
@@ -265,6 +356,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>4.0</double>
           </void>
@@ -275,6 +369,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>5.0</double>
           </void>
@@ -285,6 +382,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>6.0</double>
           </void>
@@ -295,6 +395,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>7.0</double>
           </void>
@@ -305,6 +408,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>8.0</double>
           </void>
@@ -315,6 +421,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>9.0</double>
           </void>
@@ -325,6 +434,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>10.0</double>
           </void>
@@ -335,6 +447,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>11.0</double>
           </void>
@@ -345,6 +460,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>12.0</double>
           </void>
@@ -355,6 +473,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>13.0</double>
           </void>
@@ -365,6 +486,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>14.0</double>
           </void>
@@ -375,6 +499,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>15.0</double>
           </void>
@@ -385,6 +512,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>16.0</double>
           </void>
@@ -395,6 +525,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>17.0</double>
           </void>
@@ -405,6 +538,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>18.0</double>
           </void>
@@ -415,6 +551,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>19.0</double>
           </void>
@@ -425,6 +564,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>20.0</double>
           </void>
@@ -435,6 +577,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>21.0</double>
           </void>
@@ -445,6 +590,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>22.0</double>
           </void>
@@ -455,6 +603,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>23.0</double>
           </void>
@@ -465,6 +616,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>24.0</double>
           </void>
@@ -475,6 +629,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>1.0</double>
           </void>
@@ -485,6 +642,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>1.0</double>
           </void>
@@ -495,6 +655,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>3.0</double>
           </void>
@@ -505,6 +668,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>3.0</double>
           </void>
@@ -515,6 +681,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>3.0</double>
           </void>
@@ -525,6 +694,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>12.0</double>
           </void>
@@ -535,6 +707,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>12.0</double>
           </void>
@@ -545,6 +720,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>4.0</double>
           </void>
@@ -555,6 +733,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>5.0</double>
           </void>
@@ -565,6 +746,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>4.0</double>
           </void>
@@ -575,6 +759,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>5.0</double>
           </void>
@@ -585,6 +772,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>6.0</double>
           </void>
@@ -595,6 +785,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>7.0</double>
           </void>
@@ -605,6 +798,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>8.0</double>
           </void>
@@ -615,6 +811,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>8.0</double>
           </void>
@@ -625,6 +824,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>8.0</double>
           </void>
@@ -635,6 +837,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>8.0</double>
           </void>
@@ -645,6 +850,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>9.0</double>
           </void>
@@ -655,6 +863,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>10.0</double>
           </void>
@@ -665,6 +876,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>11.0</double>
           </void>
@@ -675,6 +889,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>14.0</double>
           </void>
@@ -685,6 +902,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>14.0</double>
           </void>
@@ -695,6 +915,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>14.0</double>
           </void>
@@ -705,6 +928,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>14.0</double>
           </void>
@@ -715,6 +941,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>13.0</double>
           </void>
@@ -725,6 +954,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>15.0</double>
           </void>
@@ -735,6 +967,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>15.0</double>
           </void>
@@ -745,6 +980,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>15.0</double>
           </void>
@@ -755,6 +993,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>15.0</double>
           </void>
@@ -765,6 +1006,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>15.0</double>
           </void>
@@ -775,6 +1019,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>15.0</double>
           </void>
@@ -785,6 +1032,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="y">
            <double>17.0</double>
           </void>
@@ -792,6 +1042,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="y">
            <double>18.0</double>
           </void>
@@ -799,6 +1052,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>1.0</double>
           </void>
@@ -809,6 +1065,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>1.0</double>
           </void>
@@ -819,6 +1078,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>1.0</double>
           </void>
@@ -829,16 +1091,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
-          <void property="x">
-           <double>2.0</double>
+          <void property="ID">
+           <string>ID_2</string>
           </void>
-          <void property="y">
-           <double>17.0</double>
-          </void>
-         </object>
-        </void>
-        <void method="add">
-         <object class="Uniwork.Graphics.NGPoint2D">
           <void property="x">
            <double>2.0</double>
           </void>
@@ -849,6 +1104,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>3.0</double>
           </void>
@@ -859,6 +1117,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>3.0</double>
           </void>
@@ -869,6 +1130,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>3.0</double>
           </void>
@@ -879,6 +1143,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>4.0</double>
           </void>
@@ -889,6 +1156,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>3.0</double>
           </void>
@@ -899,6 +1169,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>7.0</double>
           </void>
@@ -909,6 +1182,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>7.0</double>
           </void>
@@ -919,6 +1195,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>7.0</double>
           </void>
@@ -929,6 +1208,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>24.0</double>
           </void>
@@ -939,6 +1221,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>24.0</double>
           </void>
@@ -949,6 +1234,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>24.0</double>
           </void>
@@ -959,6 +1247,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>16.0</double>
           </void>
@@ -969,16 +1260,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
-          <void property="x">
-           <double>17.0</double>
+          <void property="ID">
+           <string>ID_2</string>
           </void>
-          <void property="y">
-           <double>2.0</double>
-          </void>
-         </object>
-        </void>
-        <void method="add">
-         <object class="Uniwork.Graphics.NGPoint2D">
           <void property="x">
            <double>17.0</double>
           </void>
@@ -989,16 +1273,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
-          <void property="x">
-           <double>18.0</double>
+          <void property="ID">
+           <string>ID_2</string>
           </void>
-          <void property="y">
-           <double>3.0</double>
-          </void>
-         </object>
-        </void>
-        <void method="add">
-         <object class="Uniwork.Graphics.NGPoint2D">
           <void property="x">
            <double>18.0</double>
           </void>
@@ -1009,6 +1286,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>18.0</double>
           </void>
@@ -1019,6 +1299,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>19.0</double>
           </void>
@@ -1029,6 +1312,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>20.0</double>
           </void>
@@ -1039,6 +1325,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>21.0</double>
           </void>
@@ -1049,6 +1338,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>21.0</double>
           </void>
@@ -1059,6 +1351,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>22.0</double>
           </void>
@@ -1069,6 +1364,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>23.0</double>
           </void>
@@ -1079,6 +1377,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>24.0</double>
           </void>
@@ -1089,6 +1390,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>24.0</double>
           </void>
@@ -1099,6 +1403,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>24.0</double>
           </void>
@@ -1109,6 +1416,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>24.0</double>
           </void>
@@ -1119,6 +1429,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>23.0</double>
           </void>
@@ -1129,6 +1442,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>23.0</double>
           </void>
@@ -1139,6 +1455,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>23.0</double>
           </void>
@@ -1149,6 +1468,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>24.0</double>
           </void>
@@ -1159,6 +1481,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>8.0</double>
           </void>
@@ -1169,6 +1494,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>9.0</double>
           </void>
@@ -1179,6 +1507,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>10.0</double>
           </void>
@@ -1189,6 +1520,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>11.0</double>
           </void>
@@ -1199,6 +1533,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>10.0</double>
           </void>
@@ -1209,6 +1546,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>10.0</double>
           </void>
@@ -1219,6 +1559,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>12.0</double>
           </void>
@@ -1229,6 +1572,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>12.0</double>
           </void>
@@ -1239,6 +1585,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>12.0</double>
           </void>
@@ -1249,6 +1598,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>12.0</double>
           </void>
@@ -1259,6 +1611,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>12.0</double>
           </void>
@@ -1269,6 +1624,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>14.0</double>
           </void>
@@ -1279,6 +1637,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>13.0</double>
           </void>
@@ -1289,6 +1650,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>13.0</double>
           </void>
@@ -1299,6 +1663,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>14.0</double>
           </void>
@@ -1309,6 +1676,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>14.0</double>
           </void>
@@ -1319,6 +1689,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>14.0</double>
           </void>
@@ -1329,6 +1702,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>15.0</double>
           </void>
@@ -1339,6 +1715,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>15.0</double>
           </void>
@@ -1349,6 +1728,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>17.0</double>
           </void>
@@ -1359,6 +1741,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>17.0</double>
           </void>
@@ -1369,6 +1754,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>17.0</double>
           </void>
@@ -1379,6 +1767,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>5.0</double>
           </void>
@@ -1389,6 +1780,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>19.0</double>
           </void>
@@ -1399,6 +1793,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>19.0</double>
           </void>
@@ -1409,6 +1806,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>18.0</double>
           </void>
@@ -1419,11 +1819,44 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_2</string>
+          </void>
           <void property="x">
            <double>21.0</double>
           </void>
           <void property="y">
            <double>18.0</double>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="x">
+           <double>2.0</double>
+          </void>
+          <void property="y">
+           <double>17.0</double>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="x">
+           <double>17.0</double>
+          </void>
+          <void property="y">
+           <double>2.0</double>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="x">
+           <double>18.0</double>
+          </void>
+          <void property="y">
+           <double>3.0</double>
           </void>
          </object>
         </void>
@@ -1443,7 +1876,7 @@
     <void method="add">
      <object class="Grids.XMLLayer">
       <void property="ZOrder">
-       <int>8</int>
+       <int>16</int>
       </void>
       <void property="description">
        <string>Stone Top</string>
@@ -1452,6 +1885,9 @@
        <object class="java.util.ArrayList">
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_3</string>
+          </void>
           <void property="x">
            <double>1.0</double>
           </void>
@@ -1462,6 +1898,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_3</string>
+          </void>
           <void property="y">
            <double>1.0</double>
           </void>
@@ -1469,6 +1908,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_3</string>
+          </void>
           <void property="x">
            <double>2.0</double>
           </void>
@@ -1479,6 +1921,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_3</string>
+          </void>
           <void property="x">
            <double>3.0</double>
           </void>
@@ -1489,6 +1934,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_3</string>
+          </void>
           <void property="x">
            <double>4.0</double>
           </void>
@@ -1499,6 +1947,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_3</string>
+          </void>
           <void property="x">
            <double>5.0</double>
           </void>
@@ -1509,6 +1960,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_3</string>
+          </void>
           <void property="x">
            <double>6.0</double>
           </void>
@@ -1519,6 +1973,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_3</string>
+          </void>
           <void property="x">
            <double>7.0</double>
           </void>
@@ -1529,6 +1986,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_3</string>
+          </void>
           <void property="x">
            <double>8.0</double>
           </void>
@@ -1539,6 +1999,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_3</string>
+          </void>
           <void property="x">
            <double>9.0</double>
           </void>
@@ -1549,6 +2012,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_3</string>
+          </void>
           <void property="x">
            <double>10.0</double>
           </void>
@@ -1559,6 +2025,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_3</string>
+          </void>
           <void property="x">
            <double>11.0</double>
           </void>
@@ -1569,6 +2038,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_3</string>
+          </void>
           <void property="x">
            <double>12.0</double>
           </void>
@@ -1579,6 +2051,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_3</string>
+          </void>
           <void property="x">
            <double>13.0</double>
           </void>
@@ -1589,6 +2064,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_3</string>
+          </void>
           <void property="x">
            <double>14.0</double>
           </void>
@@ -1599,6 +2077,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_3</string>
+          </void>
           <void property="x">
            <double>15.0</double>
           </void>
@@ -1609,6 +2090,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_3</string>
+          </void>
           <void property="x">
            <double>16.0</double>
           </void>
@@ -1619,16 +2103,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
-          <void property="x">
-           <double>18.0</double>
+          <void property="ID">
+           <string>ID_3</string>
           </void>
-          <void property="y">
-           <double>3.0</double>
-          </void>
-         </object>
-        </void>
-        <void method="add">
-         <object class="Uniwork.Graphics.NGPoint2D">
           <void property="x">
            <double>17.0</double>
           </void>
@@ -1639,6 +2116,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_3</string>
+          </void>
           <void property="x">
            <double>18.0</double>
           </void>
@@ -1649,6 +2129,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_3</string>
+          </void>
           <void property="x">
            <double>19.0</double>
           </void>
@@ -1659,6 +2142,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_3</string>
+          </void>
           <void property="x">
            <double>20.0</double>
           </void>
@@ -1669,6 +2155,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_3</string>
+          </void>
           <void property="x">
            <double>21.0</double>
           </void>
@@ -1679,6 +2168,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_3</string>
+          </void>
           <void property="x">
            <double>22.0</double>
           </void>
@@ -1689,6 +2181,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_3</string>
+          </void>
           <void property="x">
            <double>23.0</double>
           </void>
@@ -1699,6 +2194,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_3</string>
+          </void>
           <void property="x">
            <double>24.0</double>
           </void>
@@ -1732,6 +2230,9 @@
        <object class="java.util.ArrayList">
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_4</string>
+          </void>
           <void property="y">
            <double>16.0</double>
           </void>
@@ -1739,6 +2240,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_4</string>
+          </void>
           <void property="x">
            <double>1.0</double>
           </void>
@@ -1749,6 +2253,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_4</string>
+          </void>
           <void property="x">
            <double>2.0</double>
           </void>
@@ -1759,6 +2266,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_4</string>
+          </void>
           <void property="x">
            <double>3.0</double>
           </void>
@@ -1769,6 +2279,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_4</string>
+          </void>
           <void property="x">
            <double>4.0</double>
           </void>
@@ -1779,6 +2292,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_4</string>
+          </void>
           <void property="x">
            <double>5.0</double>
           </void>
@@ -1789,6 +2305,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_4</string>
+          </void>
           <void property="x">
            <double>6.0</double>
           </void>
@@ -1799,6 +2318,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_4</string>
+          </void>
           <void property="x">
            <double>7.0</double>
           </void>
@@ -1809,6 +2331,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_4</string>
+          </void>
           <void property="x">
            <double>8.0</double>
           </void>
@@ -1819,6 +2344,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_4</string>
+          </void>
           <void property="x">
            <double>9.0</double>
           </void>
@@ -1829,6 +2357,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_4</string>
+          </void>
           <void property="x">
            <double>10.0</double>
           </void>
@@ -1839,6 +2370,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_4</string>
+          </void>
           <void property="x">
            <double>11.0</double>
           </void>
@@ -1849,6 +2383,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_4</string>
+          </void>
           <void property="x">
            <double>12.0</double>
           </void>
@@ -1859,6 +2396,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_4</string>
+          </void>
           <void property="x">
            <double>13.0</double>
           </void>
@@ -1869,6 +2409,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_4</string>
+          </void>
           <void property="x">
            <double>14.0</double>
           </void>
@@ -1879,6 +2422,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_4</string>
+          </void>
           <void property="x">
            <double>15.0</double>
           </void>
@@ -1889,6 +2435,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_4</string>
+          </void>
           <void property="x">
            <double>16.0</double>
           </void>
@@ -1899,6 +2448,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_4</string>
+          </void>
           <void property="x">
            <double>17.0</double>
           </void>
@@ -1909,6 +2461,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_4</string>
+          </void>
           <void property="x">
            <double>18.0</double>
           </void>
@@ -1919,6 +2474,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_4</string>
+          </void>
           <void property="x">
            <double>19.0</double>
           </void>
@@ -1929,6 +2487,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_4</string>
+          </void>
           <void property="x">
            <double>20.0</double>
           </void>
@@ -1939,6 +2500,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_4</string>
+          </void>
           <void property="x">
            <double>21.0</double>
           </void>
@@ -1949,6 +2513,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_4</string>
+          </void>
           <void property="x">
            <double>22.0</double>
           </void>
@@ -1959,6 +2526,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_4</string>
+          </void>
           <void property="x">
            <double>23.0</double>
           </void>
@@ -1969,6 +2539,9 @@
         </void>
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
+          <void property="ID">
+           <string>ID_4</string>
+          </void>
           <void property="x">
            <double>24.0</double>
           </void>

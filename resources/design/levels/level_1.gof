@@ -3494,47 +3494,6 @@
          <double>2.0</double>
         </void>
         <void property="y">
-         <double>17.0</double>
-        </void>
-       </object>
-      </void>
-      <void property="props">
-       <object class="java.util.ArrayList">
-        <void method="add">
-         <object class="Uniwork.Base.NGSerializePropertyItem">
-          <void property="name">
-           <string>NAME</string>
-          </void>
-          <void property="value">
-           <string>ID_2</string>
-          </void>
-         </object>
-        </void>
-        <void method="add">
-         <object class="Uniwork.Base.NGSerializePropertyItem">
-          <void property="name">
-           <string>COLOR</string>
-          </void>
-          <void property="value">
-           <string>0xffffffff</string>
-          </void>
-         </object>
-        </void>
-       </object>
-      </void>
-     </object>
-    </void>
-    <void method="add">
-     <object class="Uniwork.Graphics.NGSerializeGeometryObjectItem">
-      <void property="GO">
-       <object class="Uniwork.Graphics.NGPoint2D">
-        <void property="ID">
-         <string>ID_2</string>
-        </void>
-        <void property="x">
-         <double>2.0</double>
-        </void>
-        <void property="y">
          <double>18.0</double>
         </void>
        </object>
@@ -4068,89 +4027,7 @@
          <double>17.0</double>
         </void>
         <void property="y">
-         <double>2.0</double>
-        </void>
-       </object>
-      </void>
-      <void property="props">
-       <object class="java.util.ArrayList">
-        <void method="add">
-         <object class="Uniwork.Base.NGSerializePropertyItem">
-          <void property="name">
-           <string>NAME</string>
-          </void>
-          <void property="value">
-           <string>ID_2</string>
-          </void>
-         </object>
-        </void>
-        <void method="add">
-         <object class="Uniwork.Base.NGSerializePropertyItem">
-          <void property="name">
-           <string>COLOR</string>
-          </void>
-          <void property="value">
-           <string>0xffffffff</string>
-          </void>
-         </object>
-        </void>
-       </object>
-      </void>
-     </object>
-    </void>
-    <void method="add">
-     <object class="Uniwork.Graphics.NGSerializeGeometryObjectItem">
-      <void property="GO">
-       <object class="Uniwork.Graphics.NGPoint2D">
-        <void property="ID">
-         <string>ID_2</string>
-        </void>
-        <void property="x">
-         <double>17.0</double>
-        </void>
-        <void property="y">
          <double>1.0</double>
-        </void>
-       </object>
-      </void>
-      <void property="props">
-       <object class="java.util.ArrayList">
-        <void method="add">
-         <object class="Uniwork.Base.NGSerializePropertyItem">
-          <void property="name">
-           <string>NAME</string>
-          </void>
-          <void property="value">
-           <string>ID_2</string>
-          </void>
-         </object>
-        </void>
-        <void method="add">
-         <object class="Uniwork.Base.NGSerializePropertyItem">
-          <void property="name">
-           <string>COLOR</string>
-          </void>
-          <void property="value">
-           <string>0xffffffff</string>
-          </void>
-         </object>
-        </void>
-       </object>
-      </void>
-     </object>
-    </void>
-    <void method="add">
-     <object class="Uniwork.Graphics.NGSerializeGeometryObjectItem">
-      <void property="GO">
-       <object class="Uniwork.Graphics.NGPoint2D">
-        <void property="ID">
-         <string>ID_2</string>
-        </void>
-        <void property="x">
-         <double>18.0</double>
-        </void>
-        <void property="y">
-         <double>3.0</double>
         </void>
        </object>
       </void>
@@ -5948,6 +5825,129 @@
       <void property="GO">
        <object class="Uniwork.Graphics.NGPoint2D">
         <void property="ID">
+         <string>ID_2</string>
+        </void>
+        <void property="x">
+         <double>2.0</double>
+        </void>
+        <void property="y">
+         <double>17.0</double>
+        </void>
+       </object>
+      </void>
+      <void property="props">
+       <object class="java.util.ArrayList">
+        <void method="add">
+         <object class="Uniwork.Base.NGSerializePropertyItem">
+          <void property="name">
+           <string>NAME</string>
+          </void>
+          <void property="value">
+           <string>ID_2</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="Uniwork.Base.NGSerializePropertyItem">
+          <void property="name">
+           <string>COLOR</string>
+          </void>
+          <void property="value">
+           <string>0xffffffff</string>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="Uniwork.Graphics.NGSerializeGeometryObjectItem">
+      <void property="GO">
+       <object class="Uniwork.Graphics.NGPoint2D">
+        <void property="ID">
+         <string>ID_2</string>
+        </void>
+        <void property="x">
+         <double>17.0</double>
+        </void>
+        <void property="y">
+         <double>2.0</double>
+        </void>
+       </object>
+      </void>
+      <void property="props">
+       <object class="java.util.ArrayList">
+        <void method="add">
+         <object class="Uniwork.Base.NGSerializePropertyItem">
+          <void property="name">
+           <string>NAME</string>
+          </void>
+          <void property="value">
+           <string>ID_2</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="Uniwork.Base.NGSerializePropertyItem">
+          <void property="name">
+           <string>COLOR</string>
+          </void>
+          <void property="value">
+           <string>0xffffffff</string>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="Uniwork.Graphics.NGSerializeGeometryObjectItem">
+      <void property="GO">
+       <object class="Uniwork.Graphics.NGPoint2D">
+        <void property="ID">
+         <string>ID_2</string>
+        </void>
+        <void property="x">
+         <double>18.0</double>
+        </void>
+        <void property="y">
+         <double>3.0</double>
+        </void>
+       </object>
+      </void>
+      <void property="props">
+       <object class="java.util.ArrayList">
+        <void method="add">
+         <object class="Uniwork.Base.NGSerializePropertyItem">
+          <void property="name">
+           <string>NAME</string>
+          </void>
+          <void property="value">
+           <string>ID_2</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="Uniwork.Base.NGSerializePropertyItem">
+          <void property="name">
+           <string>COLOR</string>
+          </void>
+          <void property="value">
+           <string>0xffffffff</string>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="Uniwork.Graphics.NGSerializeGeometryObjectItem">
+      <void property="GO">
+       <object class="Uniwork.Graphics.NGPoint2D">
+        <void property="ID">
          <string>ID_3</string>
         </void>
         <void property="x">
@@ -6608,47 +6608,6 @@
         </void>
         <void property="y">
          <double>2.0</double>
-        </void>
-       </object>
-      </void>
-      <void property="props">
-       <object class="java.util.ArrayList">
-        <void method="add">
-         <object class="Uniwork.Base.NGSerializePropertyItem">
-          <void property="name">
-           <string>NAME</string>
-          </void>
-          <void property="value">
-           <string>ID_3</string>
-          </void>
-         </object>
-        </void>
-        <void method="add">
-         <object class="Uniwork.Base.NGSerializePropertyItem">
-          <void property="name">
-           <string>COLOR</string>
-          </void>
-          <void property="value">
-           <string>0xffffffff</string>
-          </void>
-         </object>
-        </void>
-       </object>
-      </void>
-     </object>
-    </void>
-    <void method="add">
-     <object class="Uniwork.Graphics.NGSerializeGeometryObjectItem">
-      <void property="GO">
-       <object class="Uniwork.Graphics.NGPoint2D">
-        <void property="ID">
-         <string>ID_3</string>
-        </void>
-        <void property="x">
-         <double>18.0</double>
-        </void>
-        <void property="y">
-         <double>3.0</double>
         </void>
        </object>
       </void>
