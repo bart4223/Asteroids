@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<java version="1.7.0_71" class="java.beans.XMLDecoder">
+<java version="1.7.0_75" class="java.beans.XMLDecoder">
  <object class="Grids.XMLGrid">
   <void property="currentLayer">
-   <string>LAYER2</string>
+   <string>LAYER1</string>
   </void>
   <void property="gridColor">
    <string>0xd3d3d3ff</string>
   </void>
   <void property="gridDistance">
-   <int>10</int>
+   <int>1</int>
   </void>
   <void property="layers">
    <object class="java.util.ArrayList">
     <void method="add">
      <object class="Grids.XMLLayer">
       <void property="ZOrder">
-       <int>37</int>
+       <int>44</int>
       </void>
       <void property="description">
        <string>Layer 1</string>
@@ -2378,14 +2378,14 @@
        <string>LAYER1</string>
       </void>
       <void property="objectColor">
-       <string>0x000000ff</string>
+       <string>0x003333ff</string>
       </void>
      </object>
     </void>
     <void method="add">
      <object class="Grids.XMLLayer">
       <void property="ZOrder">
-       <int>38</int>
+       <int>43</int>
       </void>
       <void property="description">
        <string>Layer 2</string>
@@ -3545,7 +3545,7 @@
     <void method="add">
      <object class="Grids.XMLLayer">
       <void property="ZOrder">
-       <int>33</int>
+       <int>42</int>
       </void>
       <void property="description">
        <string>Layer 3</string>
@@ -4055,7 +4055,7 @@
     <void method="add">
      <object class="Grids.XMLLayer">
       <void property="ZOrder">
-       <int>34</int>
+       <int>41</int>
       </void>
       <void property="description">
        <string>Layer 4</string>
@@ -4195,7 +4195,7 @@
     <void method="add">
      <object class="Grids.XMLLayer">
       <void property="ZOrder">
-       <int>35</int>
+       <int>40</int>
       </void>
       <void property="description">
        <string>Layer 5</string>
@@ -4565,7 +4565,7 @@
     <void method="add">
      <object class="Grids.XMLLayer">
       <void property="ZOrder">
-       <int>36</int>
+       <int>39</int>
       </void>
       <void property="description">
        <string>Layer 6</string>

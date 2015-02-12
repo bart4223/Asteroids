@@ -11,6 +11,9 @@ public class GameFieldStageController extends NGStageController {
     @FXML
     public Canvas LayerStarryStar;
 
+    @FXML
+    public Canvas LayerBack;
+
     public GameFieldStageController() {
         super();
     }

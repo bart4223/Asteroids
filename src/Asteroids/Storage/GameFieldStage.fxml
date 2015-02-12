@@ -2,4 +2,5 @@
 <?import javafx.scene.canvas.Canvas?>
 <AnchorPane fx:controller="Asteroids.Storage.GameFieldStageController" xmlns:fx="http://javafx.com/fxml" style="-fx-background-color: black;">
     <Canvas id="LayerStarryStar" width="800" height="640" AnchorPane.leftAnchor="0" AnchorPane.topAnchor="0" fx:id="LayerStarryStar" />
+    <Canvas id="LayerBack" width="800" height="640" AnchorPane.leftAnchor="0" AnchorPane.topAnchor="0" fx:id="LayerBack" />
 </AnchorPane>
