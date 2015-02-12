@@ -45,7 +45,7 @@ public class Asteroids extends NG2DGame {
             FGameFieldController.Initialize();
             Parent lRoot = lXMLLoader.getRoot();
             FGameFieldStage.setTitle("Asteroids.GameField");
-            Scene scene = new Scene(lRoot, 800, 600, Color.WHITE);
+            Scene scene = new Scene(lRoot, 800, 640, Color.WHITE);
             FGameFieldStage.setScene(scene);
             FGameFieldStage.setResizable(false);
             scene.setOnKeyPressed(new EventHandler<KeyEvent>() {

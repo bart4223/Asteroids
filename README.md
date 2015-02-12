@@ -7,3 +7,4 @@ History
 =======
 
     21.12.14    First uses Uniplay engine
+    12.01.15    Starrystar works with graphic engine
