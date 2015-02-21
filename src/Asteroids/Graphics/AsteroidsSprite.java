@@ -16,12 +16,12 @@ public class AsteroidsSprite extends NG2DCustomSprite {
 
     @Override
     public Boolean IsRenderEngineResponsible(NGCustomRenderEngineItem aRenderEngine) {
-        return aRenderEngine.getName().equals("BACK");
+        return aRenderEngine.getName().equals("Back");
     }
 
     @Override
     public String getResponsibleDisplayControllerName(NGCustomRenderEngineItem aRenderEngine) {
-        return "DEFAULT";
+        return "Default";
     }
 
     @Override

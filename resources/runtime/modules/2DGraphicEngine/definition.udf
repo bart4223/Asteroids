@@ -28,7 +28,7 @@
         <void method="add">
          <object class="Uniplay.Graphics.NGGraphicEngineDefinitionRenderEngineDisplayControllerItem">
           <void property="name">
-           <string>DEFAULT</string>
+           <string>Default</string>
           </void>
           <void property="classname">
            <string>Asteroids.Graphics.StarryStarDisplayManager</string>
@@ -77,7 +77,7 @@
         <void method="add">
          <object class="Uniplay.Graphics.NGGraphicEngineDefinitionRenderEngineDisplayControllerItem">
           <void property="name">
-           <string>DEFAULT</string>
+           <string>Default</string>
           </void>
           <void property="classname">
            <string>Uniwork.Visuals.NGImageDisplayController</string>
@@ -108,10 +108,82 @@
        </object>
       </void>
       <void property="name">
-       <string>BACK</string>
+       <string>Back</string>
       </void>
       <void property="layername">
        <string>Asteroids.GameField.LayerBack</string>
+      </void>
+      <void property="classname">
+       <string>Uniplay.Graphics.NG2DRenderEngine</string>
+      </void>
+      <void property="props">
+       <object class="java.util.ArrayList">
+        <void method="add">
+         <object class="Uniwork.Base.NGSerializePropertyItem">
+          <void property="name">
+           <string>RenderEngine.ValuePropname</string>
+          </void>
+          <void property="value">
+           <string>ImageNumber</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="Uniwork.Base.NGSerializePropertyItem">
+          <void property="name">
+           <string>RenderEngine.ValueLayername</string>
+          </void>
+          <void property="value">
+           <string>Background</string>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="Uniplay.Graphics.NGGraphicEngineDefinitionRenderEngineItem">
+      <void property="displayControllers">
+       <object class="java.util.ArrayList">
+        <void method="add">
+         <object class="Uniplay.Graphics.NGGraphicEngineDefinitionRenderEngineDisplayControllerItem">
+          <void property="name">
+           <string>Default</string>
+          </void>
+          <void property="classname">
+           <string>Uniwork.Visuals.NGImageDisplayController</string>
+          </void>
+          <void property="imagename">
+           <string>resources/sprites/id_%d.png</string>
+          </void>
+          <void property="props">
+           <object class="java.util.ArrayList">
+            <void method="add">
+             <object class="Uniwork.Base.NGSerializePropertyItem">
+              <void property="name">
+               <string>Background.MaxImageNumber</string>
+              </void>
+              <void property="value">
+               <int>5</int>
+              </void>
+             </object>
+            </void>
+           </object>
+          </void>
+          <void property="layers">
+           <object class="java.util.ArrayList">
+           </object>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void property="name">
+       <string>Front</string>
+      </void>
+      <void property="layername">
+       <string>Asteroids.GameField.LayerFront</string>
       </void>
       <void property="classname">
        <string>Uniplay.Graphics.NG2DRenderEngine</string>

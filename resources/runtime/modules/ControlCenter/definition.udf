@@ -22,7 +22,7 @@
            <string>Interval</string>
           </void>
           <void property="value">
-           <int>4</int>
+           <int>8</int>
           </void>
          </object>
         </void>
@@ -33,6 +33,33 @@
           </void>
           <void property="value">
            <string>StarryStar</string>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="Uniplay.Control.NGControlCenterDefinitionMimicItem">
+      <void property="classname">
+       <string>Asteroids.Control.StoneShifter</string>
+      </void>
+      <void property="name">
+       <string>StoneShifter</string>
+      </void>
+      <void property="game">
+       <string>Asteroids</string>
+      </void>
+      <void property="props">
+       <object class="java.util.ArrayList">
+        <void method="add">
+         <object class="Uniwork.Base.NGSerializePropertyItem">
+          <void property="name">
+           <string>Interval</string>
+          </void>
+          <void property="value">
+           <int>80</int>
           </void>
          </object>
         </void>

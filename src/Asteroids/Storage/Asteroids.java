@@ -2,7 +2,7 @@ package Asteroids.Storage;
 
 import Asteroids.Graphics.AsteroidsSprite;
 import Asteroids.Graphics.SpriteAir;
-import Asteroids.Graphics.SpriteBendersUfo;
+import Asteroids.Graphics.SpriteSpaceship;
 import Asteroids.Graphics.SpriteStone;
 import Uniplay.Kernel.NGGameEngineMemoryAddress;
 import Uniplay.Kernel.NGGameEngineMemoryIntegerCellValue;
@@ -82,6 +82,7 @@ public class Asteroids extends NG2DGame {
     protected void registerObjects() {
         registerObject(String.format("%s.GameField.LayerStarryStar", getName()), FGameFieldController.LayerStarryStar);
         registerObject(String.format("%s.GameField.LayerBack", getName()), FGameFieldController.LayerBack);
+        registerObject(String.format("%s.GameField.LayerFront", getName()), FGameFieldController.LayerFront);
     }
 
     @Override
@@ -111,15 +112,14 @@ public class Asteroids extends NG2DGame {
             case 0:
                 return new SpriteAir();
             case 1:
-                return new SpriteBendersUfo();
-            case 2 :case 3 :case 4 :
+                return new SpriteSpaceship();
+            case 2: case 3: case 4:
                 SpriteStone stone = new SpriteStone();
                 stone.setID(aID);
                 return stone;
         }
         return null;
     }
-
 
     public Asteroids(NGGameManager aManager, String aName) {
         super(aManager, aName);

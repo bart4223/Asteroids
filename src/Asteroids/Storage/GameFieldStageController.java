@@ -14,6 +14,9 @@ public class GameFieldStageController extends NGStageController {
     @FXML
     public Canvas LayerBack;
 
+    @FXML
+    public Canvas LayerFront;
+
     public GameFieldStageController() {
         super();
     }
