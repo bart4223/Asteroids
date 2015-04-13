@@ -1,49 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<java version="1.7.0_75" class="java.beans.XMLDecoder">
+<java version="1.8.0_40" class="java.beans.XMLDecoder">
  <object class="Uniwork.Graphics.NGSerializeGeometryObjectList">
   <void property="SGOS">
    <object class="java.util.ArrayList">
-    <void method="add">
-     <object class="Uniwork.Graphics.NGSerializeGeometryObjectItem">
-      <void property="GO">
-       <object class="Uniwork.Graphics.NGPoint2D">
-        <void property="ID">
-         <string>ID_1</string>
-        </void>
-        <void property="x">
-         <double>3.0</double>
-        </void>
-        <void property="y">
-         <double>9.0</double>
-        </void>
-       </object>
-      </void>
-      <void property="props">
-       <object class="java.util.ArrayList">
-        <void method="add">
-         <object class="Uniwork.Base.NGSerializePropertyItem">
-          <void property="name">
-           <string>NAME</string>
-          </void>
-          <void property="value">
-           <string>ID_1</string>
-          </void>
-         </object>
-        </void>
-        <void method="add">
-         <object class="Uniwork.Base.NGSerializePropertyItem">
-          <void property="name">
-           <string>COLOR</string>
-          </void>
-          <void property="value">
-           <string>0xffffffff</string>
-          </void>
-         </object>
-        </void>
-       </object>
-      </void>
-     </object>
-    </void>
     <void method="add">
      <object class="Uniwork.Graphics.NGSerializeGeometryObjectItem">
       <void property="GO">

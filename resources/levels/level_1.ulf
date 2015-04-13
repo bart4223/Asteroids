@@ -2,7 +2,7 @@
 <java version="1.7.0_25" class="java.beans.XMLDecoder">
  <object class="Uniplay.Storage.NGSerialize2DLevel">
   <void property="caption">
-   <string>The First</string>
+   <string>The Cave</string>
   </void>
   <void property="gameField">
    <object class="Uniplay.Storage.NGSerialize2DGameField">
@@ -20,7 +20,6 @@
             <void property="value">
              <int>2</int>
             </void>
-            <void id="Integer0" property="base"/>
            </object>
           </void>
           <void method="add">
@@ -2486,9 +2485,6 @@
             </void>
             <void property="offset">
              <int>3</int>
-            </void>
-            <void property="value">
-             <int>1</int>
             </void>
            </object>
           </void>
@@ -5478,35 +5474,7 @@
          <string>DEFAULT</string>
         </void>
         <void property="props">
-         <object class="java.util.ArrayList">
-          <void method="add">
-           <object class="Uniwork.Base.NGSerializePropertyItem">
-            <void property="name">
-             <string>GAMEFIELD.DEFAULT.DIAMOND.COUNT</string>
-            </void>
-            <void property="value">
-             <object idref="Integer0"/>
-            </void>
-           </object>
-          </void>
-          <void method="add">
-           <object class="Uniwork.Base.NGSerializePropertyItem">
-            <void property="name">
-             <string>GAMEFIELD.DEFAULT.PLAYER.POSITION</string>
-            </void>
-            <void property="value">
-             <object class="Uniplay.Storage.NG2DObjectPosition">
-              <void property="x">
-               <double>3.0</double>
-              </void>
-              <void property="y">
-               <double>9.0</double>
-              </void>
-             </object>
-            </void>
-           </object>
-          </void>
-         </object>
+         <object class="java.util.ArrayList"/>
         </void>
        </object>
       </void>
@@ -5524,18 +5492,7 @@
    <string>Level1</string>
   </void>
   <void property="props">
-   <object class="java.util.ArrayList">
-    <void method="add">
-     <object class="Uniwork.Base.NGSerializePropertyItem">
-      <void property="name">
-       <string>LIVES</string>
-      </void>
-      <void property="value">
-       <int>3</int>
-      </void>
-     </object>
-    </void>
-   </object>
+   <object class="java.util.ArrayList"/>
   </void>
  </object>
 </java>
