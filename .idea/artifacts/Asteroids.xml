@@ -14,15 +14,11 @@
     <root id="root">
       <element id="archive" name="Asteroids.jar">
         <element id="module-output" name="Asteroids" />
+        <element id="module-output" name="Uniplay" />
+        <element id="module-output" name="Uniwork" />
       </element>
       <element id="directory" name="resources">
         <element id="dir-copy" path="$PROJECT_DIR$/resources" />
-      </element>
-      <element id="archive" name="Uniplay.jar">
-        <element id="module-output" name="Uniplay" />
-      </element>
-      <element id="archive" name="Uniwork.jar">
-        <element id="module-output" name="Uniwork" />
       </element>
     </root>
   </artifact>
