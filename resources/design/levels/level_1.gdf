@@ -11,7 +11,7 @@
    <int>32</int>
   </void>
   <void property="layers">
-   <object class="java.util.ArrayList">
+   <object class="java.util.concurrent.CopyOnWriteArrayList">
     <void method="add">
      <object class="Grids.XMLLayer">
       <void property="ZOrder">
@@ -21,7 +21,7 @@
        <string>Bender&apos;s Ufo</string>
       </void>
       <void property="geometryObjects">
-       <object class="java.util.ArrayList"/>
+       <object class="java.util.concurrent.CopyOnWriteArrayList"/>
       </void>
       <void property="imagename">
        <string>/Users/Nils/IdeaProjects/Asteroids/resources/sprites/id_1.png</string>
@@ -43,7 +43,7 @@
        <string>Stone</string>
       </void>
       <void property="geometryObjects">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
           <void property="ID">
@@ -1868,7 +1868,7 @@
        <string>Stone Top</string>
       </void>
       <void property="geometryObjects">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
           <void property="ID">
@@ -2213,7 +2213,7 @@
        <string>Stone Bottom</string>
       </void>
       <void property="geometryObjects">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Graphics.NGPoint2D">
           <void property="ID">

@@ -2,14 +2,14 @@
 <java version="1.7.0_25" class="java.beans.XMLDecoder">
  <object class="Uniplay.Storage.NGDataStorageDefinition">
   <void property="games">
-   <object class="java.util.ArrayList">
+   <object class="java.util.concurrent.CopyOnWriteArrayList">
     <void method="add">
      <object class="Uniplay.Storage.NGDataStorageDefinitionGameItem">
       <void property="classname">
        <string>Asteroids.Storage.Asteroids</string>
       </void>
       <void property="gameObjects">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniplay.Storage.NGDataStorageDefinitionGameObjectItem">
           <void property="classname">
@@ -19,7 +19,7 @@
            <string>StarryStar</string>
           </void>
           <void property="props">
-           <object class="java.util.ArrayList">
+           <object class="java.util.concurrent.CopyOnWriteArrayList">
             <void method="add">
              <object class="Uniwork.Base.NGSerializePropertyItem">
               <void property="name">

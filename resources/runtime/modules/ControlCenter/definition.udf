@@ -2,7 +2,7 @@
 <java version="1.7.0_25" class="java.beans.XMLDecoder">
  <object class="Uniplay.Control.NGControlCenterDefinition">
   <void property="mimicItems">
-   <object class="java.util.ArrayList">
+   <object class="java.util.concurrent.CopyOnWriteArrayList">
     <void method="add">
      <object class="Uniplay.Control.NGControlCenterDefinitionMimicItem">
       <void property="classname">
@@ -15,7 +15,7 @@
        <string>Asteroids</string>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -52,7 +52,7 @@
        <string>Asteroids</string>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">

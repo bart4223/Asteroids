@@ -11,7 +11,7 @@
    <int>32</int>
   </void>
   <void property="layers">
-   <object class="java.util.ArrayList">
+   <object class="java.util.concurrent.CopyOnWriteArrayList">
     <void method="add">
      <object class="Grids.XMLLayer">
       <void property="ZOrder">
@@ -24,7 +24,7 @@
        <string>/Users/Nils/IdeaProjects/Asteroids/resources/sprites/id_1.png</string>
       </void>
       <void property="geometryObjects">
-       <object class="java.util.ArrayList"/>
+       <object class="java.util.concurrent.CopyOnWriteArrayList"/>
       </void>
       <void property="name">
        <string>ID_1</string>
@@ -46,7 +46,7 @@
        <string>/Users/Nils/IdeaProjects/Asteroids/resources/sprites/id_2.png</string>
       </void>
       <void property="geometryObjects">
-       <object class="java.util.ArrayList"/>
+       <object class="java.util.concurrent.CopyOnWriteArrayList"/>
       </void>
       <void property="name">
        <string>ID_2</string>
@@ -68,7 +68,7 @@
        <string>/Users/Nils/IdeaProjects/Asteroids/resources/sprites/id_3.png</string>
       </void>
       <void property="geometryObjects">
-       <object class="java.util.ArrayList"/>
+       <object class="java.util.concurrent.CopyOnWriteArrayList"/>
       </void>
       <void property="name">
        <string>ID_3</string>
@@ -90,7 +90,7 @@
        <string>/Users/Nils/IdeaProjects/Asteroids/resources/sprites/id_4.png</string>
       </void>
       <void property="geometryObjects">
-       <object class="java.util.ArrayList"/>
+       <object class="java.util.concurrent.CopyOnWriteArrayList"/>
       </void>
       <void property="name">
        <string>ID_4</string>

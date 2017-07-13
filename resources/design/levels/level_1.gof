@@ -2,7 +2,7 @@
 <java version="1.8.0_40" class="java.beans.XMLDecoder">
  <object class="Uniwork.Graphics.NGSerializeGeometryObjectList">
   <void property="SGOS">
-   <object class="java.util.ArrayList">
+   <object class="java.util.concurrent.CopyOnWriteArrayList">
     <void method="add">
      <object class="Uniwork.Graphics.NGSerializeGeometryObjectItem">
       <void property="GO">
@@ -16,7 +16,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -51,7 +51,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -89,7 +89,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -127,7 +127,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -165,7 +165,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -203,7 +203,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -241,7 +241,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -279,7 +279,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -317,7 +317,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -355,7 +355,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -393,7 +393,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -431,7 +431,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -469,7 +469,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -507,7 +507,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -545,7 +545,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -583,7 +583,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -621,7 +621,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -659,7 +659,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -697,7 +697,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -735,7 +735,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -773,7 +773,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -811,7 +811,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -849,7 +849,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -887,7 +887,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -925,7 +925,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -963,7 +963,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -1004,7 +1004,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -1045,7 +1045,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -1086,7 +1086,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -1127,7 +1127,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -1168,7 +1168,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -1209,7 +1209,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -1250,7 +1250,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -1291,7 +1291,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -1332,7 +1332,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -1373,7 +1373,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -1414,7 +1414,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -1455,7 +1455,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -1496,7 +1496,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -1537,7 +1537,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -1578,7 +1578,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -1619,7 +1619,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -1660,7 +1660,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -1701,7 +1701,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -1742,7 +1742,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -1783,7 +1783,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -1824,7 +1824,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -1865,7 +1865,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -1906,7 +1906,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -1947,7 +1947,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -1988,7 +1988,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -2029,7 +2029,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -2070,7 +2070,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -2111,7 +2111,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -2152,7 +2152,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -2193,7 +2193,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -2234,7 +2234,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -2275,7 +2275,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -2316,7 +2316,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -2357,7 +2357,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -2398,7 +2398,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -2439,7 +2439,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -2480,7 +2480,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -2521,7 +2521,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -2562,7 +2562,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -2603,7 +2603,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -2644,7 +2644,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -2685,7 +2685,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -2726,7 +2726,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -2767,7 +2767,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -2808,7 +2808,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -2849,7 +2849,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -2890,7 +2890,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -2931,7 +2931,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -2972,7 +2972,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -3013,7 +3013,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -3054,7 +3054,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -3095,7 +3095,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -3136,7 +3136,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -3177,7 +3177,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -3218,7 +3218,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -3256,7 +3256,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -3294,7 +3294,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -3335,7 +3335,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -3376,7 +3376,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -3417,7 +3417,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -3458,7 +3458,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -3499,7 +3499,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -3540,7 +3540,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -3581,7 +3581,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -3622,7 +3622,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -3663,7 +3663,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -3704,7 +3704,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -3745,7 +3745,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -3786,7 +3786,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -3827,7 +3827,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -3868,7 +3868,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -3909,7 +3909,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -3950,7 +3950,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -3991,7 +3991,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -4032,7 +4032,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -4073,7 +4073,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -4114,7 +4114,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -4155,7 +4155,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -4196,7 +4196,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -4237,7 +4237,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -4278,7 +4278,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -4319,7 +4319,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -4360,7 +4360,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -4401,7 +4401,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -4442,7 +4442,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -4483,7 +4483,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -4524,7 +4524,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -4565,7 +4565,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -4606,7 +4606,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -4647,7 +4647,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -4688,7 +4688,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -4729,7 +4729,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -4770,7 +4770,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -4811,7 +4811,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -4852,7 +4852,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -4893,7 +4893,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -4934,7 +4934,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -4975,7 +4975,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -5016,7 +5016,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -5057,7 +5057,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -5098,7 +5098,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -5139,7 +5139,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -5180,7 +5180,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -5221,7 +5221,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -5262,7 +5262,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -5303,7 +5303,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -5344,7 +5344,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -5385,7 +5385,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -5426,7 +5426,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -5467,7 +5467,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -5508,7 +5508,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -5549,7 +5549,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -5590,7 +5590,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -5631,7 +5631,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -5672,7 +5672,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -5713,7 +5713,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -5754,7 +5754,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -5795,7 +5795,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -5836,7 +5836,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -5877,7 +5877,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -5918,7 +5918,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -5956,7 +5956,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -5997,7 +5997,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -6038,7 +6038,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -6079,7 +6079,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -6120,7 +6120,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -6161,7 +6161,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -6202,7 +6202,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -6243,7 +6243,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -6284,7 +6284,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -6325,7 +6325,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -6366,7 +6366,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -6407,7 +6407,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -6448,7 +6448,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -6489,7 +6489,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -6530,7 +6530,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -6571,7 +6571,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -6612,7 +6612,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -6653,7 +6653,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -6694,7 +6694,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -6735,7 +6735,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -6776,7 +6776,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -6817,7 +6817,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -6858,7 +6858,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -6899,7 +6899,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -6937,7 +6937,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -6978,7 +6978,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -7019,7 +7019,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -7060,7 +7060,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -7101,7 +7101,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -7142,7 +7142,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -7183,7 +7183,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -7224,7 +7224,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -7265,7 +7265,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -7306,7 +7306,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -7347,7 +7347,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -7388,7 +7388,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -7429,7 +7429,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -7470,7 +7470,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -7511,7 +7511,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -7552,7 +7552,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -7593,7 +7593,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -7634,7 +7634,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -7675,7 +7675,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -7716,7 +7716,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -7757,7 +7757,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -7798,7 +7798,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -7839,7 +7839,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -7880,7 +7880,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
@@ -7921,7 +7921,7 @@
        </object>
       </void>
       <void property="props">
-       <object class="java.util.ArrayList">
+       <object class="java.util.concurrent.CopyOnWriteArrayList">
         <void method="add">
          <object class="Uniwork.Base.NGSerializePropertyItem">
           <void property="name">
