@@ -5,7 +5,7 @@ import Uniplay.Storage.NGCustomGameObject;
 import Uniwork.Graphics.NGPoint2D;
 import Uniwork.Misc.NGRandomGenerator;
 
-import java.util.ArrayList;
+import java.util.concurrent.CopyOnWriteArrayList;
 
 public class StarryStar extends NGCustomGameObject {
 
@@ -67,7 +67,7 @@ public class StarryStar extends NGCustomGameObject {
 
     }
 
-    protected ArrayList<Star> FStars;
+    protected CopyOnWriteArrayList<Star> FStars;
 
     protected void newStar() {
         Integer x = NGRandomGenerator.GlobalRandomGenerator.getInteger(Width);
@@ -99,7 +99,7 @@ public class StarryStar extends NGCustomGameObject {
     @Override
     protected void DoExecute() {
         super.DoExecute();
-        ArrayList<Star> martures = new ArrayList<Star>();
+        CopyOnWriteArrayList<Star> martures = new CopyOnWriteArrayList<Star>();
         for (Star star : FStars) {
             switch (Direction) {
                 case left:
@@ -134,7 +134,7 @@ public class StarryStar extends NGCustomGameObject {
 
     public StarryStar(NGCustomGame aGame, String aName) {
         super(aGame, aName);
-        FStars = new ArrayList<Star>();
+        FStars = new CopyOnWriteArrayList<Star>();
         MaxStars = 0;
         Width = 0;
         Height = 0;

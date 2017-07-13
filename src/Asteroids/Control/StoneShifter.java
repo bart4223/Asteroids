@@ -11,7 +11,7 @@ import Uniplay.Kernel.NGGameEngineMemoryManager;
 import Uniplay.Storage.NGCustomGame;
 import Uniwork.Misc.NGRandomGenerator;
 
-import java.util.ArrayList;
+import java.util.concurrent.CopyOnWriteArrayList;
 
 public class StoneShifter extends NGControlMimicPeriodicAction {
 
@@ -26,7 +26,7 @@ public class StoneShifter extends NGControlMimicPeriodicAction {
         NGGameEngineMemoryAddress address;
         NGCustomGame game = getGame();
         NGGameEngineMemoryManager mm = game.getMemoryManager();
-        ArrayList<NGGameEngineMemoryCellValueItem> cells = new ArrayList<NGGameEngineMemoryCellValueItem>();
+        CopyOnWriteArrayList<NGGameEngineMemoryCellValueItem> cells = new CopyOnWriteArrayList<NGGameEngineMemoryCellValueItem>();
         for (int y = 0; y < mm.getBaseSize(game.getMemoryName()); y++) {
             for (int x = 1; x < mm.getOffsetSize(game.getMemoryName()); x++) {
                 address = new NGGameEngineMemoryAddress(1, y, x);
